@@ -1,0 +1,15 @@
+.device-type-roku {
+  margin-bottom: 80px  !important;
+  background: url(../../../../img/device_sprite_icon.png) no-repeat 50% -720px;
+}
+.device-type-roku::after{
+  content: "Roku";
+  position: absolute;
+  bottom: -40px;
+  display: block;
+  width: inherit;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'HelveticaNeue Regular' ,'RobotoRegular';
+  color: #333;
+}

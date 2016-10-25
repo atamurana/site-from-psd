@@ -1,0 +1,19 @@
+.device {
+  display: inline-block;
+  position: relative;
+  width: 144px;
+  height: 144px;
+  background-color: #f6f6f6 !important;
+  border-radius: 50%;
+}
+.device::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 45px;
+  height: 45px;
+  background: url(-type/../../../../img/chek.png) no-repeat center, #74d4ad;
+  border-radius: 50%;
+}

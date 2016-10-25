@@ -1,0 +1,15 @@
+.device-type-receivers_soundbars {
+  margin-bottom: 96px  !important;
+  background: url(../../../../img/device_sprite_icon.png) no-repeat 50% -288px;
+}
+.device-type-receivers_soundbars::after{
+  content: "Receivers & Soundbars";
+  position: absolute;
+  bottom: -60px;
+  display: block;
+  width: inherit;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'HelveticaNeue Regular' ,'RobotoRegular';
+  color: #333;
+}

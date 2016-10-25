@@ -1,0 +1,18 @@
+.social {
+  list-style-type: none;
+}
+.social .social__item {
+  margin: 10px;
+}
+.social .social__item:nth-child(1) .social__link {
+  background: url(../../img/soc_sprite.png) no-repeat center 0;
+}
+.social .social__item:nth-child(2) .social__link {
+  background: url(../../img/soc_sprite.png) no-repeat center -48px;
+}
+.social .social__item:nth-child(3) .social__link {
+  background: url(../../img/soc_sprite.png) no-repeat center -96px;
+}
+.social .social__item:nth-child(4) .social__link {
+  background: url(../../img/soc_sprite.png) no-repeat center -144px;
+}

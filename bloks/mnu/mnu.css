@@ -1,0 +1,13 @@
+.mnu {
+  text-align: center;
+  font-size: 15px;
+  line-height: 60px;
+  font-family: 'Interstate Regular', 'RobotoMedium';
+  list-style-type: none;
+}
+.mnu__item {
+  padding-right: 46px;
+}
+.mnu__item:last-child {
+  padding: 0;
+}

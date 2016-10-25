@@ -1,0 +1,15 @@
+.device-type-dvd {
+  margin-bottom: 96px  !important;
+  background: url(../../../../img/device_sprite_icon.png) no-repeat 50% -432px;
+}
+.device-type-dvd::after{
+  content: "Blu-ray & DVD Players";
+  position: absolute;
+  bottom: -60px;
+  display: block;
+  width: inherit;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'HelveticaNeue Regular' ,'RobotoRegular';
+  color: #333;
+}

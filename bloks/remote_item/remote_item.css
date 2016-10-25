@@ -1,0 +1,47 @@
+.remote_item {
+  position: relative;
+  display: inline-block;
+  margin: 7px 7px 7px 0;
+  width: 32%;
+  height: 250px;
+  color: #1e1e1e;
+  text-align: center;
+  font-size: 17px;
+  vertical-align: top;
+  line-height: 65px;
+  text-decoration: none;
+  background-position: center;
+}
+.remote_item:hover {
+  text-decoration: underline;
+}
+.remote_item:hover .remote_item__cover_bg {
+  display: block;
+}
+.remote_item:nth-child(1) {
+  background-image: url(../../img/Meet_Ray.png);
+}
+.remote_item:nth-child(2) {
+  background-image: url(../../img/Search.png);
+}
+.remote_item:nth-child(3) {
+  background-image: url(../../img/Discovery.png);
+}
+.remote_item:nth-child(4) {
+  background-image: url(../../img/Kids.png);
+}
+.remote_item:nth-child(5) {
+  background-image: url(../../img/DISH.png);
+}
+.remote_item:nth-child(6) {
+  background-image: url(../../img/Universal_Remote.png);
+}
+.remote_item:nth-child(7) {
+  background-image: url(../../img/Streaming.png);
+}
+.remote_item:nth-child(8) {
+  background-image: url(../../img/Super_Easy_Set_up.png);
+}
+.remote_item:nth-child(9) {
+  background-image: url(../../img/Tech_Specs.png);
+}

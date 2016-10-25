@@ -1,0 +1,15 @@
+.device-type-xbox {
+  margin-bottom: 80px  !important;
+  background: url(../../../../img/device_sprite_icon.png) no-repeat 50% -864px;
+}
+.device-type-xbox::after{
+  content: "Xbox 360 & One";
+  position: absolute;
+  bottom: -40px;
+  display: block;
+  width: inherit;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'HelveticaNeue Regular' ,'RobotoRegular';
+  color: #333;
+}

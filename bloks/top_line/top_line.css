@@ -1,0 +1,9 @@
+.top_line .top_line__logo_link {
+  float: left;
+}
+.top_line .button {
+  float: right;
+}
+.top_line .button {
+  margin: 10px 0;
+}

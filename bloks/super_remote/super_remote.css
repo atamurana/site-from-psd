@@ -1,0 +1,19 @@
+.super_remote {
+  position: relative;
+  background-color: #f6f6f6;
+  padding: 75px 0 55px;
+  text-align: center;
+}
+.super_remote:before {
+  content: "learn about the super revote";
+  position: absolute;
+  top: 28px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  vertical-align: top;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 23px;
+  color: #999;
+}

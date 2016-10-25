@@ -1,0 +1,15 @@
+.device-type-set_top_boxes {
+  margin-bottom: 80px  !important;
+  background: url(../../../../img/device_sprite_icon.png) no-repeat 50% -144px;
+}
+.device-type-set_top_boxes::after{
+  content: "Set-Top Boxes";
+  position: absolute;
+  bottom: -40px;
+  display: block;
+  width: inherit;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'HelveticaNeue Regular' ,'RobotoRegular'; 
+  color: #333;
+}
