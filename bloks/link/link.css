@@ -1,7 +1,11 @@
 .link {
   text-decoration: none;
   color: #25afd9;
+  border-bottom: transparent solid 1px;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
 }
 .link:hover {
-  text-decoration: underline;
+  border-bottom: #25afd9 solid 1px;
 }

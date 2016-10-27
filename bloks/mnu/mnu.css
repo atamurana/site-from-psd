@@ -11,3 +11,20 @@
 .mnu__item:last-child {
   padding: 0;
 }
+.mnu__item {
+  display: inline-block;
+}
+.mnu__link {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 26px;
+  color: #1e1e1e;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+.mnu__link:hover {
+  border-bottom: 1px solid #2ac4f3;
+}

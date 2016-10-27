@@ -7,3 +7,8 @@
 .top_line .button {
   margin: 10px 0;
 }
+.top_line__logo_link {
+  display: block;
+  width: 60px;
+  height: 60px;
+}

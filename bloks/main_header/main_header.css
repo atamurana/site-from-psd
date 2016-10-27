@@ -1,21 +1,21 @@
 .main_header {
   width: 100%
 }
-.main_header .top_line {
+.main_header__top_line {
   margin: 20px 0 40px;
 }
-.main_header .text_block {
+.main_header__text_block {
   margin: 0 auto;
   text-align: center;
   width: 750px;
 }
-.main_header .h2 {
+.main_header__h2 {
   margin: 20px auto;
 }
-.main_header .h1 {
+.main_header__h1 {
   margin: 20px auto;
 }
-.main_header .text {
+.main_header__text {
   margin: 40px auto;
   font-size: 16px;
   color: #666;

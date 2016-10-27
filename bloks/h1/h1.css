@@ -5,3 +5,12 @@
   font-size: 40px;
   font-family: 'Interstate ExtraLight', 'RobotoCondensedLight';
 }
+h1-color-dark {
+  color: #1e1e1e;
+}
+.h1-color-light {
+  color: #f6f6f6;
+}
+.h1-capitalize {
+  text-transform: capitalize; 
+}

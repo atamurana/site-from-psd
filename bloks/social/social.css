@@ -16,3 +16,13 @@
 .social .social__item:nth-child(4) .social__link {
   background: url(../../img/soc_sprite.png) no-repeat center -144px;
 }
+.social__item {
+  display: inline-block;
+}
+.social__link {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background-color: #f6f6f6 !important;
+  border-radius: 50%;
+}

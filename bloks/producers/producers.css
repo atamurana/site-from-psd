@@ -1,6 +1,40 @@
 .producers  {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
   list-style-position: outside;
+}
+.producers__col {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  width: 224px;
+}
+.producers__list{
+  list-style-type: none;
+}
+.producers__list_item {
+  text-align: left;
+}
+.producers__list_item:first-child  .producers__title{
+  font-family:'HelveticaNeue Bold' ,'RobotoBold' ;
+}
+.producers__list_item:last-child .producers__title{
+  font-family:'HelveticaNeue Medium' ,'RobotoMedium' ;
+  color: #25afd9;
+}
+.producers__title {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: 'HelveticaNeue Light' ,'RobotoLight';
+  color: #86949e;
+  border-bottom: solid 1px transparent;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+.producers__title:hover {
+  border-bottom: #86949e 1px solid;
+}
+.producers__list_item:last-child .producers__title:hover {
+  border-color: #25afd9;
 }

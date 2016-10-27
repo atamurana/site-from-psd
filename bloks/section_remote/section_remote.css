@@ -1,10 +1,10 @@
-.super_remote {
+.section_remote {
   position: relative;
   background-color: #f6f6f6;
   padding: 75px 0 55px;
   text-align: center;
 }
-.super_remote:before {
+.section_remote:before {
   content: "learn about the super revote";
   position: absolute;
   top: 28px;

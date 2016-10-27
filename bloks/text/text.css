@@ -1,3 +1,9 @@
 .text {
   font-family: 'HelveticaNeue Light' ,'RobotoLight';
 }
+.text-size-m {
+  font-size: 18px;
+}
+.text-size-s {
+  font-size: 16px;
+}

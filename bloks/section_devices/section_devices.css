@@ -1,0 +1,22 @@
+.section_devices {
+  margin-top: 90px;
+  margin-bottom: 120px;
+}
+.section_devices__stickers, .section_devices__text_block {
+  display: inline-block;
+  vertical-align: top;
+}
+.section_devices__stickers {
+  margin-right: 15px;
+  width: 745px;
+}
+.section_devices__text_block {
+  width: 375px;
+}
+.section_devices__h1 {
+  margin-bottom: 40px;
+}
+.section_devices__device{
+  margin: 0 26px 40px 0;
+  vertical-align: top;
+}
